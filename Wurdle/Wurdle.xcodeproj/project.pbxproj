@@ -14,6 +14,8 @@
 		B0BA71E52860DE9A0005B292 /* WurdleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA71E42860DE9A0005B292 /* WurdleTests.swift */; };
 		B0BA71EF2860DE9A0005B292 /* WurdleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA71EE2860DE9A0005B292 /* WurdleUITests.swift */; };
 		B0BA71F12860DE9A0005B292 /* WurdleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA71F02860DE9A0005B292 /* WurdleUITestsLaunchTests.swift */; };
+		B0BA71FF2860E0AB0005B292 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA71FE2860E0AB0005B292 /* Row.swift */; };
+		B0BA72012860E0BB0005B292 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA72002860E0BB0005B292 /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B0BA71EA2860DE9A0005B292 /* WurdleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WurdleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BA71EE2860DE9A0005B292 /* WurdleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WurdleUITests.swift; sourceTree = "<group>"; };
 		B0BA71F02860DE9A0005B292 /* WurdleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WurdleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0BA71FE2860E0AB0005B292 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		B0BA72002860E0BB0005B292 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,9 @@
 		B0BA71D22860DE980005B292 /* Wurdle */ = {
 			isa = PBXGroup;
 			children = (
-				B0BA71D32860DE980005B292 /* WurdleApp.swift */,
+				B0BA71FD2860E09D0005B292 /* Views */,
 				B0BA71D52860DE980005B292 /* ContentView.swift */,
+				B0BA71D32860DE980005B292 /* WurdleApp.swift */,
 				B0BA71D72860DE9A0005B292 /* Assets.xcassets */,
 				B0BA71D92860DE9A0005B292 /* Preview Content */,
 			);
@@ -125,6 +130,15 @@
 				B0BA71F02860DE9A0005B292 /* WurdleUITestsLaunchTests.swift */,
 			);
 			path = WurdleUITests;
+			sourceTree = "<group>";
+		};
+		B0BA71FD2860E09D0005B292 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0BA72002860E0BB0005B292 /* Cell.swift */,
+				B0BA71FE2860E0AB0005B292 /* Row.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0BA71D62860DE980005B292 /* ContentView.swift in Sources */,
+				B0BA72012860E0BB0005B292 /* Cell.swift in Sources */,
+				B0BA71FF2860E0AB0005B292 /* Row.swift in Sources */,
 				B0BA71D42860DE980005B292 /* WurdleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
